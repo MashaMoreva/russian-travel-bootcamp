@@ -1,6 +1,6 @@
 .place__text {
-display: flex;
-flex-direction: column;
+  display: grid;
+  gap: 25px;
 }
 
 /*@media screen and (min-width:768px) {

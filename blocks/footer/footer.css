@@ -1,0 +1,33 @@
+.footer {
+  display: grid;
+  /*display: flex;
+  flex-direction: column;*/
+  gap: 48px;
+  padding: 0 118px 24px 16px;
+}
+
+@media screen and (min-width:768px) {
+  .footer {
+    /*flex-direction: row;
+    justify-content: space-between;
+    */
+    grid-auto-flow: column;
+    padding-right: 24px;
+    padding-left: 24px;
+    gap: 69px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-right: 48px;
+    padding-left: 48px;
+    gap: 277px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    gap: 533px;
+  }
+}

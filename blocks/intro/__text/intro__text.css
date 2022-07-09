@@ -1,0 +1,10 @@
+.intro__text {
+  margin-top: 40px ;
+  margin-bottom: 34px;
+  color: #FFFFFF;
+  text-align: start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  transition: .7s ease;
+}

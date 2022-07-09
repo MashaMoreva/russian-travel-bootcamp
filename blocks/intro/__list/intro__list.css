@@ -1,0 +1,6 @@
+.intro__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: .7s ease;
+}

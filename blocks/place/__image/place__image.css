@@ -1,14 +1,13 @@
 .place__image {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (min-width:768px) {
   .place__image {
     /*max-width: 340px;
     max-height: 340px;*/
-    object-fit: contain;
     object-position: top;
   }
 }

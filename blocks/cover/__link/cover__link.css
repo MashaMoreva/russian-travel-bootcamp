@@ -1,0 +1,33 @@
+.cover__link {
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  padding: 33px 16px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  transition: .7s ease;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (min-width:768px) {
+  .cover__link {
+    padding: 115px 104px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cover__link {
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .cover__link {
+    padding: 245px 312px;
+  }
+}

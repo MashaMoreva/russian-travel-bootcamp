@@ -6,7 +6,7 @@
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
-  transition: .7s ease;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width:768px) {

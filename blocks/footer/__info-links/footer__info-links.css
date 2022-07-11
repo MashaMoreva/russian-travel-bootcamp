@@ -1,14 +1,13 @@
-.footer__links {
+.footer__info-links {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   display: grid;
   gap: 32px;
 }
 
 @media screen and (min-width:768px) {
-  .footer__links {
-    /*flex-direction: row;*/
+  .footer__info-links {
     grid-auto-flow: column;
     gap: 18px;
   }

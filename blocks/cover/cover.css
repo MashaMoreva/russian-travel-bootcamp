@@ -1,3 +1,6 @@
 .cover {
-  padding: 65px 0;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  max-width: 1184px;
+  margin: auto;
 }

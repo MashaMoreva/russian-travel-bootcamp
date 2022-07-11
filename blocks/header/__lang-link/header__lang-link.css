@@ -8,11 +8,10 @@
 }
 
 .header__lang-link:hover {
-  text-decoration-line: underline;
   opacity: .7;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .header__lang-link {
     font-size: 24px;
     line-height: 28px;

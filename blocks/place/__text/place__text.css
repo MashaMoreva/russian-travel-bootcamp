@@ -1,10 +1,5 @@
 .place__text {
   display: grid;
+  grid-auto-rows: min-content;
   gap: 25px;
 }
-
-/*@media screen and (min-width:768px) {
-  .place__text {
-    max-width: 352px;
-  }
-}*/

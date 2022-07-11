@@ -1,23 +1,27 @@
 .places {
-  padding: 0 16px;
+  padding: 0 16px 65px 16px;
   display: grid;
   gap: 50px;
 }
 
 @media screen and (min-width:768px) {
   .places {
-    padding: 0 24px;
+    gap: 75px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width:1024px) {
   .places {
-    padding: 0 48px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
 @media screen and (min-width:1280px) {
   .places {
-    padding: 0 148px;
+    padding-right: 148px;
+    padding-left: 148px;
   }
 }

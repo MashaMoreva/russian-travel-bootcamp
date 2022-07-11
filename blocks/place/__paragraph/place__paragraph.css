@@ -6,10 +6,6 @@
   line-height: 26px;
 }
 
-/*.place__paragraph:last-child {
-  margin-bottom: 0;
-}*/
-
 @media screen and (min-width:1024px) {
   .place__paragraph {
     font-size: 18px;
